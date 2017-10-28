@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/libs.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="field">
+		<div class="field_player"></div>
+		<div class="field_menu">
+			<div class="menu_friends menu_elem menu_elem__blue menu_border__blue">
+				<div class="list_ctrl list_left"></div>
+				<div class="list_ctrl list_right"></div>
+				<div class="wrapper">
+					<ul class="friends">
+						<li class="friend">
+							<a class="friend_add_btn"></a>
+						</li>
+						<li class="friend"></li>
+						<li class="friend"></li>
+						<li class="friend"></li>
+						<li class="friend"></li>
+						<li class="friend"></li>
+						<li class="friend"></li>
+						<li class="friend"></li>				
+						<li class="friend"></li>
+						<li class="friend"></li>												
+						<li class="friend"></li>						
+					</ul>
+				</div>
+			</div>
+			<div class="menu_chat menu_elem menu_border__dark"></div>
+			<div class="menu_univer menu_elem"></div>
+			<div class="menu_message menu_elem"></div>
+			<div class="menu_rating menu_elem"></div>
+		</div>
+		<div class="rating">
+			<h1 class="rating_title">Рейтинг игроков</h1>
+			<div class="rating_btns">
+				<a class="btn btn_info"></a>
+				<a class="btn btn_close"></a>
+			</div>
+			<div id="rating_tabs">
+				<ul class="rating_tabs_wrap">
+					<li><a class="rating_tab rating_tab__active" href="#tab_week">Недельный</a></li>
+					<li><a class="rating_tab" href="#tab_global">Общий</a></li>
+				</ul>
+				<div id="tab_week" class="tab_content">Пока ничего нет.</div>
+				<div id="tab_global" class="tab_content">
+					<table>
+						<tr>
+							<th>Место</th>
+							<th>Имя Фамилия</th>
+							<th>Опыт</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Ваш друг</td>
+							<td>1000</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Ваш друг</td>
+							<td>1000</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Ваш друг</td>
+							<td>1000</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Ваш друг</td>
+							<td>1000</td>
+						</tr>																		
+					</table>
+					<div class="rating_arrow"></div>
+				</div>
+				<div class="rating_page">Страница 1</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
